@@ -1,7 +1,7 @@
 terraform {
   backend "remote" {
     hostname = "app.terraform.io"
-    organization = "024_2023-summer-cloud"
+    organization = "027_spring-cloud"
 
     workspaces {
       prefix = "customers-"
